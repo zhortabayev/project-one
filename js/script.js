@@ -1,3 +1,4 @@
 function clickOne() {
-	alert("Clicked");
+	var value= document.getElementById("textareaOne").value;
+	alert(value + " Clicked");
 }
